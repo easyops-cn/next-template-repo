@@ -15,7 +15,7 @@
     "size-limit": "size-limit",
     "serve": "brick-container-serve",
     "test": "cross-env NODE_ENV='test' node --expose-gc ./node_modules/.bin/jest --logHeapUsage",
-    "test:ci": "cross-env NODE_ENV='test' CI=true node --expose-gc ./node_modules/.bin/jest --logHeapUsage --ci",
+    "test:ci": "cross-env NODE_ENV='test' CI=true node --expose-gc ./node_modules/.bin/jest --logHeapUsage --ci --passWithNoTests",
     "yo": "brick-scripts",
     "yo-debug": "node --inspect-brk ./node_modules/@next-core/brick-scripts/dist/index.js",
     "renew": "dev-dependencies-renew",
