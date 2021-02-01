@@ -6,7 +6,13 @@
   "commitMessagePrefix": "chore(deps):",
   "ignorePresets": [":ignoreModulesAndTests"],
   "packageRules": [
-    { "depTypeList": ["devDependencies"], "automerge": true },
+    {
+      "depTypeList": ["devDependencies"],
+      "automerge": true,
+      "major": {
+        "automerge": false
+      }
+    },
     {
       "packagePatterns": [
         "^@bricks/",
@@ -20,7 +26,6 @@
         "^@next-sdk/",
         "^@next-legacy-templates/"
       ],
-      "enabled": false,
       "packageNames": [
         "@ant-design/compatible",
         "@ant-design/icons",
@@ -71,7 +76,8 @@
         "react-dom",
         "react-i18next",
         "react-transition-group"
-      ]
+      ],
+      "enabled": false
     },
     {
       "packagePatterns": ["^@next-core/"],
