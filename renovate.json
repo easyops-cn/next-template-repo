@@ -2,7 +2,7 @@
   "$schema": "http://json.schemastore.org/renovate",
   "extends": ["config:base"],
   "rangeStrategy": "bump",
-  "semanticCommits": "enabled",
+  "semanticCommits": true,
   "commitMessagePrefix": "chore(deps):",
   "ignorePresets": [":ignoreModulesAndTests"],
   "packageRules": [
@@ -75,24 +75,10 @@
     },
     {
       "packagePatterns": ["^@next-core/"],
-      "automerge": false,
       "groupName": "next-core packages",
-      "postUpgradeTasks": {
-        "commands": [
-          "yarn renew",
-          "yarn extract",
-          "./node_modules/.bin/prettier --write package.json"
-        ],
-        "fileFilters": ["**/*", ".gitlab/**/*"]
-      },
+      "automerge": false,
       "major": { "enabled": false }
-    },
-    {
-      "baseBranchList": ["legacy/brick-next_1.x"],
-      "excludePackagePatterns": ["^@next-core/"],
-      "enabled": false
     }
   ],
-  "postUpdateOptions": ["yarnDedupeHighest"],
-  "baseBranches": ["master", "legacy/brick-next_1.x"]
+  "postUpdateOptions": ["yarnDedupeHighest"]
 }
