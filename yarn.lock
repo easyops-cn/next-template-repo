@@ -2033,7 +2033,7 @@
   dependencies:
     babel-plugin-prismjs "^2.0.1"
 
-"@next-core/babel-runtime-helpers@^1.0.4", "@next-core/babel-runtime-helpers@^1.0.5":
+"@next-core/babel-runtime-helpers@^1.0.5":
   version "1.0.5"
   resolved "https://registry.npm.taobao.org/@next-core/babel-runtime-helpers/download/@next-core/babel-runtime-helpers-1.0.5.tgz#c1a5e93c9838b8a93a18c461b4262626970999f7"
   integrity sha1-waXpPJg4uKk6GMRhtCYmJpcJmfc=
@@ -2089,12 +2089,12 @@
   resolved "https://registry.npm.taobao.org/@next-core/brick-http/download/@next-core/brick-http-2.2.4.tgz#815674b47977b507b314a51786ae27f2ad668964"
   integrity sha1-gVZ0tHl3tQezFKUXhq4n8q1miWQ=
 
-"@next-core/brick-icons@^2.7.4", "@next-core/brick-icons@^2.8.0":
+"@next-core/brick-icons@^2.8.0":
   version "2.8.0"
   resolved "https://registry.npm.taobao.org/@next-core/brick-icons/download/@next-core/brick-icons-2.8.0.tgz#6bea4432070987ec11083067882a363cfa1783c0"
   integrity sha1-a+pEMgcJh+wRCDBniCo2PPoXg8A=
 
-"@next-core/brick-kit@^2.32.1", "@next-core/brick-kit@^2.32.2":
+"@next-core/brick-kit@^2.32.2":
   version "2.32.2"
   resolved "https://registry.npm.taobao.org/@next-core/brick-kit/download/@next-core/brick-kit-2.32.2.tgz#e3d5342a0481a7c79d2d2b72f691ca2a42079b18"
   integrity sha1-49U0KgSBp8edLSty9pHKKkIHmxg=
@@ -2129,7 +2129,7 @@
   resolved "https://registry.npm.taobao.org/@next-core/brick-types/download/@next-core/brick-types-2.17.0.tgz?cache=0&sync_timestamp=1612019808339&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2F%40next-core%2Fbrick-types%2Fdownload%2F%40next-core%2Fbrick-types-2.17.0.tgz#fe0ae8f3a8a4646c11d09f8b074d560276ea89a3"
   integrity sha1-/gro86ikZGwR0J+LB01WAnbqiaM=
 
-"@next-core/brick-utils@^2.10.6", "@next-core/brick-utils@^2.10.7":
+"@next-core/brick-utils@^2.10.7":
   version "2.10.7"
   resolved "https://registry.npm.taobao.org/@next-core/brick-utils/download/@next-core/brick-utils-2.10.7.tgz#d472faa5535b1fa9d2404a76ba39575a99fbd583"
   integrity sha1-1HL6pVNbH6nSQEp2ujlXWpn71YM=
@@ -3695,7 +3695,7 @@ ansi-styles@^4.0.0, ansi-styles@^4.1.0:
   dependencies:
     color-convert "^2.0.1"
 
-antd@^4.11.2, antd@^4.12.2:
+antd@^4.12.2:
   version "4.12.2"
   resolved "https://registry.npm.taobao.org/antd/download/antd-4.12.2.tgz?cache=0&sync_timestamp=1612411258715&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fantd%2Fdownload%2Fantd-4.12.2.tgz#3e00b21de418c94a358bf1fc064de15654a30161"
   integrity sha1-PgCyHeQYyUo1i/H8Bk3hVlSjAWE=
