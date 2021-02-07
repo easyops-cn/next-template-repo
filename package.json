@@ -1,7 +1,7 @@
 {
   "name": "YOUR-REPOSITORY",
   "private": true,
-  "license": "UNLICENSED",
+  "license": "GPL-3.0",
   "homepage": "https://github.com/easyops-cn/YOUR-REPOSITORY",
   "scripts": {
     "prepare": "lerna bootstrap",
