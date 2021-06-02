@@ -97,6 +97,6 @@
     "@next-core/brick-types": "^2.26.2"
   },
   "easyops": {
-    "dev-dependencies": "1.8.17"
+    "dev-dependencies": "1.8.18"
   }
 }
