@@ -1987,14 +1987,17 @@
     npmlog "^4.1.2"
     write-file-atomic "^3.0.3"
 
-"@next-core/babel-preset-next@^0.7.0":
-  version "0.7.0"
-  resolved "https://registry.npmjs.org/@next-core/babel-preset-next/-/babel-preset-next-0.7.0.tgz#b456b8bd4423675299b0f1da4febc784dac7eb4f"
-  integrity sha512-nPDVwVWouur60rvXI+APPCv9Yt7uP9qNfLyra6LkZjWvLcp0VUNDoNxPyTj7trKG8aAl5xF5ZHMTlxHndyyszw==
+"@next-core/babel-preset-next@^0.7.1":
+  version "0.7.1"
+  resolved "https://registry.npmjs.org/@next-core/babel-preset-next/-/babel-preset-next-0.7.1.tgz#cdce29baa78b437f06c574cc7da6e3b201e10622"
+  integrity sha512-n9MI85AJIiX0/rYZV8o2juK7q+cglyoexuMEf/GAtkjfJ4LaVO0cNl2hs2qyhJLigpZkEGq9DilUcq6KkgyBhg==
   dependencies:
     "@babel/plugin-proposal-class-properties" "^7.13.0"
     "@babel/plugin-proposal-decorators" "^7.14.2"
+    "@babel/plugin-proposal-nullish-coalescing-operator" "^7.14.2"
+    "@babel/plugin-proposal-optional-chaining" "^7.14.2"
     "@babel/plugin-proposal-private-methods" "^7.13.0"
+    "@babel/plugin-proposal-unicode-property-regex" "^7.12.13"
     "@babel/preset-env" "^7.14.4"
     "@babel/preset-react" "^7.13.13"
     "@babel/preset-typescript" "^7.13.0"
@@ -2148,13 +2151,13 @@
   resolved "https://registry.npmjs.org/@next-core/custom-antd-styles/-/custom-antd-styles-1.8.9.tgz#7590c0a79cc7d92cc59684e90fa9110d0a85331b"
   integrity sha512-GW+aMVB82ca64saVekCIANfa0SfqrnN6Gj4ujBopAuP01a5U+3ufnnDiz7u31OuXkJY0BqCOdYhWtmUjJYK+UQ==
 
-"@next-core/dev-dependencies@^1.8.17":
-  version "1.8.17"
-  resolved "https://registry.npmjs.org/@next-core/dev-dependencies/-/dev-dependencies-1.8.17.tgz#cbbd0c0c0b0a0b10d46c1645ea5da34d84acef8a"
-  integrity sha512-501Zw/tED7TVNq/lkOLQWt37ke1IHk9BdcLcQhcbuAc0rzlafpB+kOARKtUFAOz66kr7XSMkCm3ODJZQkI3+UA==
+"@next-core/dev-dependencies@^1.8.18":
+  version "1.8.18"
+  resolved "https://registry.npmjs.org/@next-core/dev-dependencies/-/dev-dependencies-1.8.18.tgz#4e548c0fc1494d226ef5c7163529522dd4a9df78"
+  integrity sha512-KDuQjQhYfBO1WZdIKL6HBidqg+VuH7FPBb9wVSUugtQjEQ7jXe6w4kiAr3VqvrkuLSWvCy6prfFC7Rij9ZBYVg==
   dependencies:
     "@babel/core" "^7.14.3"
-    "@next-core/babel-preset-next" "^0.7.0"
+    "@next-core/babel-preset-next" "^0.7.1"
     "@next-core/babel-preset-prismjs" "^1.0.5"
     "@next-core/brick-container" "^2.24.6"
     "@next-core/brick-dll" "^2.13.5"
