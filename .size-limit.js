@@ -4,6 +4,9 @@ module.exports = sizeLimit({
   bricks: {
     "*": "50 KB",
   },
+  lazyBricks: {
+    "*": "50 KB",
+  },
   templates: {
     "*": "5 KB",
   },
