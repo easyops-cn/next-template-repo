@@ -99,6 +99,6 @@
     "@testing-library/dom": "^7.31.2"
   },
   "easyops": {
-    "dev-dependencies": "1.10.1"
+    "dev-dependencies": "1.10.2"
   }
 }
