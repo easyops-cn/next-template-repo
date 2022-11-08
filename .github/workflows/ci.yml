@@ -53,10 +53,10 @@ jobs:
     - run: yarn test:ci
 
     # Uncomment this section to enable coverage report.
-    - name: Codecov
-      uses: codecov/codecov-action@v3
-      with:
-        directory: bricks
+    # - name: Codecov
+    #   uses: codecov/codecov-action@v3
+    #   with:
+    #     directory: bricks
 
     - uses: easyops-cn/actions-next-publish-from-tags@master
       with:
